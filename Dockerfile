@@ -1,4 +1,4 @@
-FROM maven:3.5.3-jdk-11-slim
+FROM maven:3.6.0-jdk-11-slim
 
 RUN apt-get update && apt-get install gnupg -y && curl -sL https://deb.nodesource.com/setup_10.x | bash - && \
 apt-get install nodejs -y
